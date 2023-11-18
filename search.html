@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link href="search.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="new_patient.html">NEW PATIENT</a></li>
+            <li><a href="index.php">LOGIN</a></li>
+            <li><a href="#">SEARCH</a></li>
+            <li><a href="doctor.html">DOCTORS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="logout.php">LOGOUT</a></li>
+        </ul>
+<!--      
+        <img src="med.jpg"></img> -->
+    </nav>
+    <br>
+    <br>
+    <div class="cont">
+<div class="info">
+    <form action="search.php" method="post">
+        <h1 class="heading">SEARCH PATIENT INFO</h1>
+        <label for="patient_id">PatientID:</label>
+        <input type="text" id="patient_id" name="patient_id" required><br><br>
+
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <button class="btn">SUBMIT</button>
+    </form>
+</div>
+
+<div class="divider"></div>
+
+<div class="info">
+    <form action="list_doctors.php" method="post">
+        <h1>Doctor Search</h1>
+            <label for="name">Doctor's Name:</label>
+            <input type="text" name="name">
+            <br>
+            <label for="specialization">Specialization:</label>
+            <input type="text" name="specialization">
+            <br>
+            <label for="qualification">Qualification:</label>
+            <input type="text" name="qualification">
+            <br>
+            <button class="btn">SUBMIT</button>
+        </form>
+</div>
+
+</div>
+
+   
+<footer class="footer">
+    <p>www.myhospital.com &copy; myhealth.com</p>
+</footer>
+</body>
+</html>

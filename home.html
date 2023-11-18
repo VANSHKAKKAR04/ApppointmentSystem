@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="new_patient.html">NEW PATIENT</a></li>
+                <li><a href="search.html">SEARCH</a></li>
+                <li><a href="doctor.html">DOCTORS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="index.php">LOGIN</a></li>
+                <li><a href="logout.php">LOGOUT</a></li>
+            </ul>
+         
+            <img src="med.jpg"></img>
+        </nav>
+        <span class="hosp" style="font-size:140px">MY HEALTH PAL</span>
+        
+        <div class="info">
+            <div class="inf">
+            <button type="button" onmousedown="myFunction()">Who Are We?</button>
+            <div id="ans1" style="display:none">
+               
+
+At My Health Pal we are your trusted partner in healthcare. We've created a seamless and user-friendly doctor appointment system to make managing your health easier than ever.
+
+Our mission is to provide you with convenient access to healthcare professionals. We understand the importance of your time and well-being, which is why we've designed an efficient platform that allows you to schedule, manage, and track your doctor appointments online.
+
+Our team is committed to enhancing the patient experience. We are dedicated to delivering a reliable and secure platform that connects you with a network of skilled doctors and specialists. Whether you need a routine check-up, a consultation, or specialized care, we've got you covered.
+
+With My Health Pal, you can say goodbye to long wait times and the hassle of making phone calls. Our user-friendly interface and appointment scheduling system allow you to book appointments at your convenience, saving you time and reducing stress.
+
+Join us in taking a step towards a healthier, happier life. Discover the benefits of our doctor appointment system and experience healthcare on your terms.
+
+Your well-being is our priority. Welcome to [Your Website Name], where quality healthcare meets your convenience.
+
+Feel free to personalize this description with your website's name and any additional information specific to your platform.
+     </div>
+    
+            <br>
+            <br>
+            <br>
+    
+            <button type="button" onmousedown="myFunction1()">What we do?</button>
+            <div id="ans2" style="display:none">
+    
+                
+                At My Health Pal, we are dedicated to revolutionizing the way you access healthcare services. Our platform offers a wide range of services and features designed to make your healthcare journey smooth and hassle-free.
+                <ul>
+                <li>1. Appointment Scheduling: We provide a user-friendly system that allows you to easily schedule appointments with healthcare professionals. Whether it's a primary care physician, specialist, or other healthcare provider, you can book your appointments at your convenience.</li>
+                
+                <li>2. Patient-Centric Experience: We prioritize your needs and well-being. Our patient-centric approach ensures that your healthcare experience is seamless, efficient, and stress-free. We understand that your time is valuable, and we're here to save you both time and effort.</li>
+    
+                
+                <li>3. Online Access: With our platform, you can access your medical information and appointments online from anywhere. Manage your healthcare from the comfort of your home or on the go.</li>
+            </ul>
+            
+            </div>
+    
+            <br>
+            <br>
+            <br>
+    
+            <button type="button" onmousedown="myFunction2()">Why we matter</button>
+            <div id="ans3" style="display:none">
+                Empowering Patients: We empower you to take charge of your health. We believe that informed and proactive patients make healthier choices and lead better lives. Our platform equips you with the tools and resources to make informed decisions about your well-being.
+
+                Convenience and Efficiency: We matter because we bring unparalleled convenience and efficiency to healthcare. Say goodbye to long waiting times and the frustration of finding the right healthcare provider. With [Your Website Name], you can schedule appointments with ease and manage your healthcare on your terms.
+                
+                Access to Quality Care: Quality healthcare is a fundamental right, and we are committed to ensuring that you have access to a network of highly skilled doctors and specialists. We connect you with the expertise you need, whether it's for routine check-ups or specialized care.
+            </div>
+        </div>
+      
+        <br>
+        <div class="chat">
+        <button type="button" onclick="toggleChatbot()">Open Chatbot</button>
+
+        <div class="chat-container">
+            <div class="chat-header">
+                Chatbot
+            </div>
+            <div class="chat-content" id="chat-content">
+                <!-- Chat messages will be displayed here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Type a message...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+    </div>
+        <div class="vid">
+            <iframe  class="v" width="1134" height="638" src="https://www.youtube.com/embed/7zk_AJBO60Y" title="How The Human Connection Improves Healthcare | Anthony Orsini | TEDxGrandCanyonUniversity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- <iframe class="v" src="https://www.youtube.com/embed/4jSx1weymB4" title="23rd Jan, 2021: Inauguration of 50 mts. high National Flag at Netaji Subhas University of Technology" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+        <!-- <iframe class="v" src="https://www.youtube.com/embed/cIuMFk3oRwo" title="Sh. J.P. Saini, Chief Guest, ANONओत्सव 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> -->
+            <iframe  class="v" width="1134" height="638" src="https://www.youtube.com/embed/9zlUNw3y5rg" title="Let&#39;s talk about healthcare in 2030 | Dr Marcus Ranney | TEDxSurat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </iframe>
+        </div>
+        <br>
+        <br>
+      
+            <script src="chatbot.js"></script>
+            
+        </div>
+        <footer class="footer">
+            <p>www.myhospital.com &copy; myhealth.com</p>
+        </footer>
+    </body>
+    
+
+</html>
+<script>
+function myFunction() {
+      var x = document.getElementById("ans1");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+  }
+function myFunction1() {
+      var x = document.getElementById("ans2");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+ function myFunction2() {
+      var x = document.getElementById("ans3");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    } // Function to show/hide the chat-container
+function toggleChatbot() {
+        var chatContainer = document.querySelector(".chat-container");
+        if (chatContainer.style.display === "none" || chatContainer.style.display === "") {
+            chatContainer.style.display = "block";
+        } else {
+            chatContainer.style.display = "none";
+        }
+    }
+</script>

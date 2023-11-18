@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('hosp.jpg');   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info {
+    background-color: rgba(25, 232, 149, 0.8);
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    margin: 165px 165px ; /* Adjust the margin for spacing */
+
+}
+
+.info label {
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+}
+
+.info input {
+    width: 99%;
+    padding: 5px;
+    margin: 13px 0;
+    font-size: 28px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #3616d5;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    padding: 15px 30px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d45620;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #050505;
+    padding: 15px 0;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.nav-bar ul li {
+    padding: 0 20px;
+    font-size: 25px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #dfdfdf;
+}
+
+.nav-bar ul li a:hover {
+    color: #f91b1b;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.divider {
+    border-left: 36px solid #ffe900;
+    height: 557px;
+    margin: 0 20px;
+}
+
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px; /* Adjust the margin for spacing */
+}
+
+/* Additional CSS to adjust the forms for horizontal layout */
+.info {
+    width: auto; /* Remove fixed width to allow content to determine width */
+    margin: 0; /* Remove the fixed margin */
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1; /* Allow both forms to take equal space */
+    margin: 0 20px; /* Add spacing between forms */
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="patient.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav-bar">
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="#">NEW PATIENT</a></li>
+            <li><a href="index.php">LOGIN</a></li>
+            <li><a href="search.html">SEARCH</a></li>
+            <li><a href="doctor.html">DOCTORS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+     
+        <!-- <img src="med.jpg" style="width:50px",></img> -->
+    </nav>
+    <br>
+    <br>
+    <div class="cont">
+   <div class="info">
+    <form action="new_patient.php" method="post">
+        <h1 class="heading">ENTER NEW PATIENT INFO</h1>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+    
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender" required><br><br>
+        
+        <label for="date_of_birth">D.O.B:</label>
+        <input type="text" id="date_of_birth" name="date_of_birth" required><br><br>
+
+        <label for="contact_number">Contact Number:</label>
+        <input type="text" id="contact_number" name="contact_number" required><br><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+        <button class="btn">SUBMIT</button>
+    </form>
+    </div>
+
+    <div class="divider"></div>
+
+<div class="info">
+   <form action="appointment.php" method="post">
+            <h1 class="heading">ENTER APPOINTMENT INFO</h1>
+            <label for="patient_id">Patient ID:</label>
+            <input type="text" id="patient_id" name="patient_id" required><br><br>
+        
+            <label for="doctor_id">Doctor ID:</label>
+            <input type="text" id="doctor_id" name="doctor_id" required><br><br>
+
+            <label for="doctor_id">Doctor Name:</label>
+            <input type="text" id="doctor_name" name="doctor_name" required><br><br>
+    
+            <label for="appointment_date">Appointment_Date:</label>
+            <input type="text" id="appointment_date" name="appointment_date" required><br><br>
+            
+            <label for="reason">Reason:</label>
+            <input type="text" id="reason" name="reason" required><br><br>
+    
+            <label for="status">Status:</label>
+            <input type="text" id="status" name="status" required><br><br>
+    
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+</div>
+<footer class="footer">
+    <p>www.myhospital.com &copy; myhealth.com</p>
+</footer>
+</body>
+</html>
+

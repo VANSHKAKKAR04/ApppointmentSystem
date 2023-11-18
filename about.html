@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 0;
+            margin: 0;
+            background-image: url('hosp.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: moveBackground 30s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin: 20px 0;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .nav-bar { 
+            display: flex;
+            justify-content: space-between;
+            background-color: #15f5ae;
+            color: #000000;
+            text-align: center;
+            padding: 20px 0;
+            width:100%;
+        }
+
+        .nav-bar ul {
+            list-style: none;
+        }
+
+        .nav-bar li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .nav-bar a {
+            text-decoration: none;
+            color: #030305;
+            font-size: 25px;
+        }
+
+        .nav-bar a:hover {
+            text-decoration: underline;
+        }
+
+            
+        .nav-bar img {
+            width: 124px;
+            padding: 25px;
+            position: absolute;
+            top: 0%; /* Adjust this value to position the image vertically */
+            left: 90%; /* Adjust this value to position the image horizontally */
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f8fe49;
+            color: #0d0a0a;
+            text-align: center;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="new_patient.html">NEW PATIENT</a></li>
+            <li><a href="index.php">LOGIN</a></li>
+            <li><a href="search.html">SEARCH</a></li>
+            <li><a href="doctor.html">DOCTORS</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="logout.php">LOGOUT</a></li>
+        </ul>
+     
+        <img src="med.jpg"></img>
+    </nav>
+    <br>
+    <br>
+    <div class="container">
+        <h1>About My Health Pal</h1>
+        <p>My Health Pal is a state-of-the-art medical facility dedicated to providing high-quality healthcare services to our community. With a team of experienced doctors, nurses, and support staff, we are committed to delivering compassionate and comprehensive medical care.</p>
+        <p>Our hospital is equipped with the latest technology and medical equipment to ensure accurate diagnoses and effective treatments. We offer a wide range of medical services, including emergency care, surgery, diagnostic imaging, and specialized treatments in various medical fields.</p>
+        <p>At XYZ Hospital, patient well-being and satisfaction are our top priorities. We strive to create a comfortable and supportive environment for our patients and their families. Our mission is to promote health and wellness by offering personalized care and innovative medical solutions.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda excepturi sit quia, laboriosam magni labore minima iure voluptatibus quos hic quidem, reprehenderit ab possimus omnis placeat aliquid! Asperiores, dolores quasi, sed sequi officia sapiente numquam perferendis nobis deleniti dolor accusamus odio tenetur veritatis architecto, facilis rem optio est ducimus amet. Quod impedit sit, reiciendis necessitatibus, placeat, rerum sed consequuntur distinctio repudiandae ab dicta tempora magnam nisi quos doloribus. Amet quod, quibusdam at doloribus nam fugiat dolores sapiente obcaecati minima incidunt ea ut ipsam soluta ipsa labore quis, necessitatibus corporis! Necessitatibus ipsa cumque eos alias quidem odio, provident velit quam animi!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate eum ex nesciunt architecto doloribus, placeat dignissimos nobis voluptatum nisi, vel, unde neque! Voluptates doloremque numquam velit deserunt minima aut sit ullam voluptatibus illo? Omnis magnam cum corrupti accusamus quasi sequi tenetur inventore quo ipsam, quas rerum magni a itaque quis!</p>
+        <p>For any inquiries or to schedule an appointment, please contact us at:</p>
+        <p>Address: 123 Hospital Road, Cityville</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Email: info@xyzhospital.com</p>
+    </div>
+    <footer class="footer">
+        <p>www.myhospital.com &copy; myhealth.com</p>
+    </footer>
+    </body>
+    </html>

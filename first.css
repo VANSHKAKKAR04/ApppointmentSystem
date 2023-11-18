@@ -1,0 +1,61 @@
+/* CSS for the header */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+body{
+    background-image: url('hosp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    background-color: rgb(10, 242, 79);
+}
+
+/* CSS for the main section */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size:50px;
+}
+
+/* CSS for the user login section */
+.u_log {
+    text-align: center;
+    margin-right: 30px;
+    padding: 200px;
+
+}
+
+/* CSS for the doctor login section */
+.doc_log {
+    text-align: center;
+    padding: 200px;
+}
+
+/* CSS for the images */
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* CSS for the links */
+a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* CSS for the links on hover */
+a:hover {
+    color: #007bff;
+}
